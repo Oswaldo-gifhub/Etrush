@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Contenedores">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccione el Tipo de residuo a depositar"
+        android:textSize="20dp"
+        android:fontFamily="cursive"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+
+        />
+
+  <Button
+      android:layout_width="200dp"
+      android:layout_height="wrap_content"
+      android:id="@+id/Plasticos"
+      android:layout_gravity="center"
+      android:text="Plasticos"
+      android:layout_marginTop="20dp"
+      />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Vidrios"
+        android:layout_gravity="center"
+        android:text="Vidrios"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Carton"
+        android:layout_gravity="center"
+        android:text="Cartón"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Papel"
+        android:layout_gravity="center"
+        android:text="Papel"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/Otros"
+        android:layout_gravity="center"
+        android:text="Otros"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>
